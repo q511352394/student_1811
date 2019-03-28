@@ -8,10 +8,9 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 @EnableConfigServer		//开启配置中心设置
 public class SpringBoot_Run {
 
-	//定义主启动类  consumer8020启动类
+	//定义主启动类  //consumer8020启动类
 	public static void main(String[] args) {
 		//启动SpringBoot程序
-		//DubboBannerApplicationListener. //关闭spring图
 		SpringApplication.run(SpringBoot_Run.class, args);
 	}
 }
